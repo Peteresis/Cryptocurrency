@@ -9,12 +9,15 @@ Unsupervised learning, also known as unsupervised machine learning, uses machine
 ---
 # :one: Overview of the analysis.
 
-* Prepocessing of the data
-
-
-* Use of PCA to reduce the number of dimensions in the analysis
-* Use Elbow Curve and K-means to cluster data points together
-* Visualizing the results with hvplot
+* Prepocessing of the data: It is crucial that we preprocess our data before feeding it into our model, as the quality of the data and the relevant information that can be gleaned from it directly influences the model's capacity to learn.  During the preprocessing we need to deal with:
+    - Null values
+    - Missing values
+    - Standardization: transform the values such that the mean of the values is 0 and the standard deviation is 1.
+    - Handling Categorical Variables:  Categorical variables are variables that are discrete rather than continuous in nature. For example, an item's color is a discrete variable, while its price is a continuous variable.
+* Use of PCA (Principal Component Analysis) to reduce the number of dimensions in the analysis.  Principal Component Analysis (PCA) is a well-known unsupervised learning technique for reducing data dimensionality. It improves interpretability while reducing information loss at the same time. It aids in the discovery of the most important features in a dataset and facilitates the charting of data in 2D and 3D. PCA aids in the discovery of a series of linear combinations of variables.
+* Use Elbow Curve: One of the most important parts of any unsupervised algorithm is figuring out the best number of groups into which the data can be put. One of the most common ways to find this optimal value of k is the "Elbow Method."
+* Use of K-means to cluster data points together: k-means is a method for grouping data that can be used for unseprvised machine learning. It can sort unlabeled data into a certain number of clusters based on how similar they are. 
+* Visualizing the results with hvplot and Plotly graphic libraries.
 
 ---
 # :two: Results.
