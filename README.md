@@ -66,41 +66,8 @@ I used the hvplot library to make an interactive table. When the column header i
     <img src="https://user-images.githubusercontent.com/98360572/174357160-1c6f7888-a55c-47f9-af03-eabbc6451b1a.png" width="100%" height="100%">
 </p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-# :three: Summary.
-
-
----
-# :four: References.
+# :three: References.
 
 Using Unsupervised Learning to Discover Unknown Patterns, https://courses.bootcampspot.com/courses/1145/pages/18-dot-0-1-using-unsupervised-learning-to-discover-unknown-patterns
 
