@@ -41,42 +41,58 @@ The complete code of the Jupyter Notebook used for this project can be found her
 
 ## Clustering Crytocurrencies Using K-Means
 <p align="center">
+    <img src="https://user-images.githubusercontent.com/98360572/174356539-c9d8b597-6167-4c5b-8614-157ed35cf0e6.png" width="100%" height="100%">
+</p>
+
+<p align="center">
     <img src="https://user-images.githubusercontent.com/98360572/174355202-b82350d6-bde8-45f2-944e-3e4616e8e0f9.png" width="100%" height="100%">
 </p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<p align="left">
-<div class="row">
-  <div class="column">
-    <img src="https://user-images.githubusercontent.com/98360572/173164118-81231084-fd26-4ddf-85cf-c24ffd6267c0.png" width="40%" height="40%">
-    <img src="https://user-images.githubusercontent.com/98360572/173163893-3ddda1c9-ed17-4687-a31a-7903f8e0b9b2.png" width="40%" height="40%">
-  </div>
-</div>
+## Visualizing Cryptocurrencies Results
+### 3D-Scatterplot with Clusters
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/98360572/174356267-ced9fb23-180e-4aec-98c7-9f4411911ca4.png" width="100%" height="100%">
 </p>
+
+### Scatterplot
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/98360572/174355872-f770fd59-0010-4c3d-9a65-4c2743c46039.png" width="100%" height="100%">
+</p>
+
+### Interactive Table
+I used the hvplot library to make an interactive table. When the column header is clicked, the values in that column are put in order. This interactive table is a great way to find out what coins can be traded, what algorithms are used, and how they can be sorted in ascending or descending order.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/98360572/174357160-1c6f7888-a55c-47f9-af03-eabbc6451b1a.png" width="100%" height="100%">
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
