@@ -7,11 +7,17 @@
 Unsupervised learning, also known as unsupervised machine learning, uses machine learning algorithms to analyze and cluster unlabeled datasets. These algorithms discover hidden patterns or data groupings without the need for human intervention. Its ability to discover similarities and differences in information make it the ideal solution for exploratory data analysis, cross-selling strategies, customer segmentation, and image recognition.
 
 ---
-# :one: Overview of the analysis: Explain the purpose of this analysis.
+# :one: Overview of the analysis.
 
+* Prepocessing of the data
+
+
+* Use of PCA to reduce the number of dimensions in the analysis
+* Use Elbow Curve and K-means to cluster data points together
+* Visualizing the results with hvplot
 
 ---
-# :two: Results: Using bulleted lists
+# :two: Results.
 
 
 
@@ -35,11 +41,11 @@ Unsupervised learning, also known as unsupervised machine learning, uses machine
 
 
 ---
-# :three: Recap: Summarize the results
+# :three: Summary.
 
 
 ---
-# :four: References
+# :four: References.
 
 Using Unsupervised Learning to Discover Unknown Patterns, https://courses.bootcampspot.com/courses/1145/pages/18-dot-0-1-using-unsupervised-learning-to-discover-unknown-patterns
 
