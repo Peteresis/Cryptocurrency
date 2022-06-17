@@ -22,6 +22,17 @@ Unsupervised learning, also known as unsupervised machine learning, uses machine
 ---
 # :two: Results.
 
+The complete code of the Jupyter Notebook used for this project can be found here: [Jupyter Notebook Code]([https://github.com/Peteresis/Cryptocurrency/blob/5031775b54e064fb16f1cd32dbd73249a24b7640/crypto_clustering.ipynb])
+
+|   ⚠️ **NOTE: Please click on any image to zoom**     |
+| ----------- |
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/98360572/173168123-b5938c25-d47f-4dd6-9c96-d84ccf90b493.png" width="75%" height="75%">
+</p>
+
+
+![image](https://user-images.githubusercontent.com/98360572/174353574-54fa1e69-9882-4710-82af-16ca2ece7994.png)
 
 
 ## Screenshots
