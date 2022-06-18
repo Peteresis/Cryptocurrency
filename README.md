@@ -32,16 +32,28 @@ The complete code of the Jupyter Notebook used for this project can be found her
 | ----------- |
 
 ## Preprocessed data for PCA
+By using cleaning and preprocessing, the amount of data in the dataset was reduced from `1144 rows x 6 columns` to `532 rows x 4 columns`.
 <p align="center">
     <img src="https://user-images.githubusercontent.com/98360572/174353574-54fa1e69-9882-4710-82af-16ca2ece7994.png" width="50%" height="50%">
 </p>
 
 ## Dataframe with the three principal components
+
+In the table above, each column is a different feature (or dimension) and each different currency produces a different instance (or observation). This sample table, therefore, represents a dataset containing `4` features. However, our actual dataset contains `532` different currencies and therefore `532 x 4 = 2,128 features/dimensions`. These issues would pose a problem for machine learning algorithms, both in terms of computational complexity and the likelihood of over fitting.
+
+To solve this problem, take a closer look at the previous sample table. It seems that currencies with a high value of `TotalCoinsMined` tend to use the same blockchain `ProofType` as well. We could say, for example, that coin `GAP` is representative of all coins using the `PoW/PoS ProofType`, and so we could recommend to similar coins based on this observation.
+
+At a high level, this is what PCA does: it finds typical representations, called principal components, in a high-dimensional dataset so that the dimensions of the original dataset can be reduced while keeping its underlying structure and still being representative in lower dimensions! These smaller datasets can then be fed into machine learning models to make predictions as usual, without worrying that reducing the size of the original dataset will hurt the accuracy of the predictions. So, we can now add to our formal definition of PCA to say that it is the process of finding a linear subspace with fewer dimensions in which the largest difference in the original dataset is kept.
+
+Although these PCA components may make no sense for a human being, they make sense to the machine learning algorithms, as these algorithms only manage and deal with standardized numbers. 
+
 <p align="center">
     <img src="https://user-images.githubusercontent.com/98360572/174354675-bcffff6b-5f7a-4930-9872-3464d9c448e3.png" width="50%" height="50%">
 </p>
 
 ## Clustering Crytocurrencies Using K-Means
+Let's get a simple idea of what the K-means clustering algorithm is and how it works.  A K-means clustering algorithm tries to put together groups of things that are alike. K tells us how many groups there are.
+
 <p align="center">
     <img src="https://user-images.githubusercontent.com/98360572/174356539-c9d8b597-6167-4c5b-8614-157ed35cf0e6.png" width="100%" height="100%">
 </p>
