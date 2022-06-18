@@ -52,7 +52,25 @@ Although these PCA components may make no sense for a human being, they make sen
 </p>
 
 ## Clustering Crytocurrencies Using K-Means
-Let's get a simple idea of what the K-means clustering algorithm is and how it works.  A K-means clustering algorithm tries to put together groups of things that are alike. K tells us how many groups there are.
+**K-means** clustering is one of the easiest and most popular algorithms for unsupervised machine learning.
+
+Most of the time, unsupervised algorithms draw conclusions from datasets by only looking at input vectors and not at known, or labeled, outcomes.
+
+The goal of **K-means** is simple: group similar data points together and find underlying patterns.  **K-means** looks for a fixed number (k) of clusters in a dataset to reach this goal.
+
+A cluster is a group of data points that are put together because they have some things in common.
+
+You will set a target number, k, which is the number of centers you need in the dataset. A centroid is the place, real or made up, that represents the cluster's center.
+
+Each data point is put into one of the clusters by lowering the sum of squares for each cluster.
+
+In other words, the **K-means** algorithm finds k number of centers, then puts each data point in the cluster that is closest to it while keeping the centers as small as possible.
+
+The word "means" in **K-means** refers to taking the average of the data, or finding the center.
+
+In the **Elbow method**, the number of clusters (K) can be anywhere from 1 to 10. The WCSS (Within-Cluster Sum of Square) is calculated for each value of K. WCSS is the total squared distance between each point in a cluster and the center point.
+
+When we plot the WCSS with the K value, the graph looks like an Elbow. The WCSS value will start to go down as the number of clusters goes up. When K = 1, the WCSS value is the highest. When we look at the graph, we can see that at one point, it changes quickly, making an elbow shape. From here, the graph starts to move in a direction that is almost parallel to the X-axis. At this point, the K value that goes with it is the best K value or the best number of clusters.
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/98360572/174356539-c9d8b597-6167-4c5b-8614-157ed35cf0e6.png" width="100%" height="100%">
@@ -63,6 +81,8 @@ Let's get a simple idea of what the K-means clustering algorithm is and how it w
 </p>
 
 ## Visualizing Cryptocurrencies Results
+A cluster in a scatter plot is a group of points that follow the same general pattern. They could follow a linear pattern or a curved pattern. Clusters can contain many points.
+
 ### 3D-Scatterplot with Clusters
 <p align="center">
     <img src="https://user-images.githubusercontent.com/98360572/174356267-ced9fb23-180e-4aec-98c7-9f4411911ca4.png" width="100%" height="100%">
