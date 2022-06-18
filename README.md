@@ -76,6 +76,8 @@ When we plot the WCSS with the K value, the graph looks like an Elbow. The WCSS 
     <img src="https://user-images.githubusercontent.com/98360572/174356539-c9d8b597-6167-4c5b-8614-157ed35cf0e6.png" width="100%" height="100%">
 </p>
 
+After running our analysis, we see from the **Elbow Curve** that the optimal number of clusters is 4, although the computer numbers them starting from zero, so our clusters would be identified in the charts as `(0, 1, 2, 3)`, which is indicated in the column `Class` in the table below.
+
 <p align="center">
     <img src="https://user-images.githubusercontent.com/98360572/174355202-b82350d6-bde8-45f2-944e-3e4616e8e0f9.png" width="100%" height="100%">
 </p>
@@ -84,6 +86,8 @@ When we plot the WCSS with the K value, the graph looks like an Elbow. The WCSS 
 A cluster in a scatter plot is a group of points that follow the same general pattern. They could follow a linear pattern or a curved pattern. Clusters can contain many points.
 
 ### 3D-Scatterplot with Clusters
+From the chart below we see that the biggest clusters are `2` (shown in orange circles) and `0` (shown in violet rhombus markers).  The violet cluster is more tightly grouped that the other clusters.
+
 <p align="center">
     <img src="https://user-images.githubusercontent.com/98360572/174356267-ced9fb23-180e-4aec-98c7-9f4411911ca4.png" width="100%" height="100%">
 </p>
