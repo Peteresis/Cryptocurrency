@@ -118,3 +118,7 @@ Holoviz, Hvplot: Plotting, https://hvplot.holoviz.org/user_guide/Plotting.html
 Github: Colab rendering requires reloading extension in each cell #3551, https://github.com/holoviz/holoviews/issues/3551
 
 Github: df.hvplot() not working in colab #153, https://github.com/holoviz/hvplot/issues/153
+
+Analytics Vidhya:In-depth Intuition of K-Means Clustering Algorithm in Machine Learning, https://www.analyticsvidhya.com/blog/2021/01/in-depth-intuition-of-k-means-clustering-algorithm-in-machine-learning/
+
+Study dot com: Identifying Outliers and Clustering in Scatter Plots, https://study.com/skill/learn/how-to-identify-outliers-clustering-in-scatter-plots-explanation.html
